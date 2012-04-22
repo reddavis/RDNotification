@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4E9CFDA1543E78700D9B41A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E9CFD91543E78700D9B41A /* UIKit.framework */; };
+		A4E9CFDC1543E78700D9B41A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E9CFDB1543E78700D9B41A /* Foundation.framework */; };
+		A4E9CFDE1543E78700D9B41A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E9CFDD1543E78700D9B41A /* CoreGraphics.framework */; };
+		A4E9CFE41543E78700D9B41A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4E9CFE21543E78700D9B41A /* InfoPlist.strings */; };
+		A4E9CFE61543E78700D9B41A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E9CFE51543E78700D9B41A /* main.m */; };
+		A4E9CFEA1543E78700D9B41A /* RDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E9CFE91543E78700D9B41A /* RDAppDelegate.m */; };
+		A4E9CFED1543E78700D9B41A /* RDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E9CFEC1543E78700D9B41A /* RDViewController.m */; };
+		A4E9CFF01543E78700D9B41A /* RDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4E9CFEE1543E78700D9B41A /* RDViewController.xib */; };
+		A4E9CFFC1543E7B900D9B41A /* RDNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E9CFF91543E7B900D9B41A /* RDNotification.m */; };
+		A4E9CFFD1543E7B900D9B41A /* RDNotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E9CFFB1543E7B900D9B41A /* RDNotificationViewController.m */; };
+		A4E9D0081543E7EA00D9B41A /* NotificationError.png in Resources */ = {isa = PBXBuildFile; fileRef = A4E9D0001543E7EA00D9B41A /* NotificationError.png */; };
+		A4E9D0091543E7EA00D9B41A /* NotificationError@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4E9D0011543E7EA00D9B41A /* NotificationError@2x.png */; };
+		A4E9D00A1543E7EA00D9B41A /* NotificationSuccess.png in Resources */ = {isa = PBXBuildFile; fileRef = A4E9D0021543E7EA00D9B41A /* NotificationSuccess.png */; };
+		A4E9D00B1543E7EA00D9B41A /* NotificationSuccess@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4E9D0031543E7EA00D9B41A /* NotificationSuccess@2x.png */; };
+		A4E9D00C1543E7EA00D9B41A /* NotificationIconError.png in Resources */ = {isa = PBXBuildFile; fileRef = A4E9D0041543E7EA00D9B41A /* NotificationIconError.png */; };
+		A4E9D00D1543E7EA00D9B41A /* NotificationIconError@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4E9D0051543E7EA00D9B41A /* NotificationIconError@2x.png */; };
+		A4E9D00E1543E7EA00D9B41A /* NotificationIconSuccess.png in Resources */ = {isa = PBXBuildFile; fileRef = A4E9D0061543E7EA00D9B41A /* NotificationIconSuccess.png */; };
+		A4E9D00F1543E7EA00D9B41A /* NotificationIconSuccess@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4E9D0071543E7EA00D9B41A /* NotificationIconSuccess@2x.png */; };
+		A4E9D016154412D700D9B41A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E9D015154412D700D9B41A /* QuartzCore.framework */; };
+		A4E9D01B1544133000D9B41A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A4E9D01A1544133000D9B41A /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A4E9CFD51543E78700D9B41A /* RDNotificationExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RDNotificationExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4E9CFD91543E78700D9B41A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A4E9CFDB1543E78700D9B41A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A4E9CFDD1543E78700D9B41A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A4E9CFE11543E78700D9B41A /* RDNotificationExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RDNotificationExample-Info.plist"; sourceTree = "<group>"; };
+		A4E9CFE31543E78700D9B41A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A4E9CFE51543E78700D9B41A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A4E9CFE71543E78700D9B41A /* RDNotificationExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RDNotificationExample-Prefix.pch"; sourceTree = "<group>"; };
+		A4E9CFE81543E78700D9B41A /* RDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDAppDelegate.h; sourceTree = "<group>"; };
+		A4E9CFE91543E78700D9B41A /* RDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDAppDelegate.m; sourceTree = "<group>"; };
+		A4E9CFEB1543E78700D9B41A /* RDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDViewController.h; sourceTree = "<group>"; };
+		A4E9CFEC1543E78700D9B41A /* RDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDViewController.m; sourceTree = "<group>"; };
+		A4E9CFEF1543E78700D9B41A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RDViewController.xib; sourceTree = "<group>"; };
+		A4E9CFF81543E7B900D9B41A /* RDNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDNotification.h; sourceTree = "<group>"; };
+		A4E9CFF91543E7B900D9B41A /* RDNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDNotification.m; sourceTree = "<group>"; };
+		A4E9CFFA1543E7B900D9B41A /* RDNotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDNotificationViewController.h; sourceTree = "<group>"; };
+		A4E9CFFB1543E7B900D9B41A /* RDNotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDNotificationViewController.m; sourceTree = "<group>"; };
+		A4E9D0001543E7EA00D9B41A /* NotificationError.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NotificationError.png; sourceTree = "<group>"; };
+		A4E9D0011543E7EA00D9B41A /* NotificationError@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NotificationError@2x.png"; sourceTree = "<group>"; };
+		A4E9D0021543E7EA00D9B41A /* NotificationSuccess.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NotificationSuccess.png; sourceTree = "<group>"; };
+		A4E9D0031543E7EA00D9B41A /* NotificationSuccess@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NotificationSuccess@2x.png"; sourceTree = "<group>"; };
+		A4E9D0041543E7EA00D9B41A /* NotificationIconError.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NotificationIconError.png; sourceTree = "<group>"; };
+		A4E9D0051543E7EA00D9B41A /* NotificationIconError@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NotificationIconError@2x.png"; sourceTree = "<group>"; };
+		A4E9D0061543E7EA00D9B41A /* NotificationIconSuccess.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NotificationIconSuccess.png; sourceTree = "<group>"; };
+		A4E9D0071543E7EA00D9B41A /* NotificationIconSuccess@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NotificationIconSuccess@2x.png"; sourceTree = "<group>"; };
+		A4E9D015154412D700D9B41A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A4E9D01A1544133000D9B41A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4E9CFD21543E78700D9B41A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4E9D016154412D700D9B41A /* QuartzCore.framework in Frameworks */,
+				A4E9CFDA1543E78700D9B41A /* UIKit.framework in Frameworks */,
+				A4E9CFDC1543E78700D9B41A /* Foundation.framework in Frameworks */,
+				A4E9CFDE1543E78700D9B41A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4E9CFCA1543E78700D9B41A = {
+			isa = PBXGroup;
+			children = (
+				A4E9D01A1544133000D9B41A /* README.md */,
+				A4E9D015154412D700D9B41A /* QuartzCore.framework */,
+				A4E9CFDF1543E78700D9B41A /* RDNotificationExample */,
+				A4E9CFD81543E78700D9B41A /* Frameworks */,
+				A4E9CFD61543E78700D9B41A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4E9CFD61543E78700D9B41A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4E9CFD51543E78700D9B41A /* RDNotificationExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4E9CFD81543E78700D9B41A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4E9CFD91543E78700D9B41A /* UIKit.framework */,
+				A4E9CFDB1543E78700D9B41A /* Foundation.framework */,
+				A4E9CFDD1543E78700D9B41A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4E9CFDF1543E78700D9B41A /* RDNotificationExample */ = {
+			isa = PBXGroup;
+			children = (
+				A4E9D0101543E82F00D9B41A /* App */,
+				A4E9CFFE1543E7D400D9B41A /* Resources */,
+				A4E9CFF71543E7A100D9B41A /* Classes */,
+				A4E9CFE81543E78700D9B41A /* RDAppDelegate.h */,
+				A4E9CFE91543E78700D9B41A /* RDAppDelegate.m */,
+				A4E9CFE01543E78700D9B41A /* Supporting Files */,
+			);
+			path = RDNotificationExample;
+			sourceTree = "<group>";
+		};
+		A4E9CFE01543E78700D9B41A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4E9CFE11543E78700D9B41A /* RDNotificationExample-Info.plist */,
+				A4E9CFE21543E78700D9B41A /* InfoPlist.strings */,
+				A4E9CFE51543E78700D9B41A /* main.m */,
+				A4E9CFE71543E78700D9B41A /* RDNotificationExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4E9CFF61543E79900D9B41A /* RDNotification */ = {
+			isa = PBXGroup;
+			children = (
+				A4E9CFF81543E7B900D9B41A /* RDNotification.h */,
+				A4E9CFF91543E7B900D9B41A /* RDNotification.m */,
+				A4E9CFFA1543E7B900D9B41A /* RDNotificationViewController.h */,
+				A4E9CFFB1543E7B900D9B41A /* RDNotificationViewController.m */,
+			);
+			name = RDNotification;
+			sourceTree = "<group>";
+		};
+		A4E9CFF71543E7A100D9B41A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A4E9CFF61543E79900D9B41A /* RDNotification */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		A4E9CFFE1543E7D400D9B41A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A4E9CFFF1543E7DA00D9B41A /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A4E9CFFF1543E7DA00D9B41A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A4E9D0001543E7EA00D9B41A /* NotificationError.png */,
+				A4E9D0011543E7EA00D9B41A /* NotificationError@2x.png */,
+				A4E9D0021543E7EA00D9B41A /* NotificationSuccess.png */,
+				A4E9D0031543E7EA00D9B41A /* NotificationSuccess@2x.png */,
+				A4E9D0041543E7EA00D9B41A /* NotificationIconError.png */,
+				A4E9D0051543E7EA00D9B41A /* NotificationIconError@2x.png */,
+				A4E9D0061543E7EA00D9B41A /* NotificationIconSuccess.png */,
+				A4E9D0071543E7EA00D9B41A /* NotificationIconSuccess@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		A4E9D0101543E82F00D9B41A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A4E9CFEB1543E78700D9B41A /* RDViewController.h */,
+				A4E9CFEC1543E78700D9B41A /* RDViewController.m */,
+				A4E9CFEE1543E78700D9B41A /* RDViewController.xib */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4E9CFD41543E78700D9B41A /* RDNotificationExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4E9CFF31543E78700D9B41A /* Build configuration list for PBXNativeTarget "RDNotificationExample" */;
+			buildPhases = (
+				A4E9CFD11543E78700D9B41A /* Sources */,
+				A4E9CFD21543E78700D9B41A /* Frameworks */,
+				A4E9CFD31543E78700D9B41A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RDNotificationExample;
+			productName = RDNotificationExample;
+			productReference = A4E9CFD51543E78700D9B41A /* RDNotificationExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4E9CFCC1543E78700D9B41A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RD;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Red Davis";
+			};
+			buildConfigurationList = A4E9CFCF1543E78700D9B41A /* Build configuration list for PBXProject "RDNotificationExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A4E9CFCA1543E78700D9B41A;
+			productRefGroup = A4E9CFD61543E78700D9B41A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4E9CFD41543E78700D9B41A /* RDNotificationExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4E9CFD31543E78700D9B41A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4E9CFE41543E78700D9B41A /* InfoPlist.strings in Resources */,
+				A4E9CFF01543E78700D9B41A /* RDViewController.xib in Resources */,
+				A4E9D0081543E7EA00D9B41A /* NotificationError.png in Resources */,
+				A4E9D0091543E7EA00D9B41A /* NotificationError@2x.png in Resources */,
+				A4E9D00A1543E7EA00D9B41A /* NotificationSuccess.png in Resources */,
+				A4E9D00B1543E7EA00D9B41A /* NotificationSuccess@2x.png in Resources */,
+				A4E9D00C1543E7EA00D9B41A /* NotificationIconError.png in Resources */,
+				A4E9D00D1543E7EA00D9B41A /* NotificationIconError@2x.png in Resources */,
+				A4E9D00E1543E7EA00D9B41A /* NotificationIconSuccess.png in Resources */,
+				A4E9D00F1543E7EA00D9B41A /* NotificationIconSuccess@2x.png in Resources */,
+				A4E9D01B1544133000D9B41A /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4E9CFD11543E78700D9B41A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4E9CFE61543E78700D9B41A /* main.m in Sources */,
+				A4E9CFEA1543E78700D9B41A /* RDAppDelegate.m in Sources */,
+				A4E9CFED1543E78700D9B41A /* RDViewController.m in Sources */,
+				A4E9CFFC1543E7B900D9B41A /* RDNotification.m in Sources */,
+				A4E9CFFD1543E7B900D9B41A /* RDNotificationViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A4E9CFE21543E78700D9B41A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4E9CFE31543E78700D9B41A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A4E9CFEE1543E78700D9B41A /* RDViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4E9CFEF1543E78700D9B41A /* en */,
+			);
+			name = RDViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4E9CFF11543E78700D9B41A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A4E9CFF21543E78700D9B41A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4E9CFF41543E78700D9B41A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RDNotificationExample/RDNotificationExample-Prefix.pch";
+				INFOPLIST_FILE = "RDNotificationExample/RDNotificationExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A4E9CFF51543E78700D9B41A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RDNotificationExample/RDNotificationExample-Prefix.pch";
+				INFOPLIST_FILE = "RDNotificationExample/RDNotificationExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4E9CFCF1543E78700D9B41A /* Build configuration list for PBXProject "RDNotificationExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4E9CFF11543E78700D9B41A /* Debug */,
+				A4E9CFF21543E78700D9B41A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4E9CFF31543E78700D9B41A /* Build configuration list for PBXNativeTarget "RDNotificationExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4E9CFF41543E78700D9B41A /* Debug */,
+				A4E9CFF51543E78700D9B41A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4E9CFCC1543E78700D9B41A /* Project object */;
+}
