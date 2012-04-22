@@ -16,7 +16,7 @@ This class is a simple, non-instrusive alert view. Note: It currently only suppo
 
 Example: https://gist.github.com/2464265
 
-Video: http://taylorswift.ly/FEF3
+Video: http://taylorswift.ly/G24F
 
 ## Getting Started
 
