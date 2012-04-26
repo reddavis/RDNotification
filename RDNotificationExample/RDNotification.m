@@ -43,6 +43,8 @@ CGFloat const kIconAndTextPadding = 5;
 @synthesize textLabel;
 @synthesize window;
 @synthesize screenBounds;
+@synthesize animationTime;
+@synthesize animationPauseTime;
 
 #pragma mark - Intialization
 
@@ -54,6 +56,9 @@ CGFloat const kIconAndTextPadding = 5;
         self.userInteractionEnabled = YES;
         self.backgroundColor = [UIColor clearColor];
         self.notificationType = type;
+        self.animationTime = 0.4;
+        self.animationPauseTime = 1;
+        
         [self setupIcon];
         [self setupTextLabel];
         [self setupObserver];
@@ -174,18 +179,18 @@ CGFloat const kIconAndTextPadding = 5;
 - (void)animateIn {
     
     CGFloat newViewXAxis = floorf((self.screenBounds.size.width - self.frame.size.width) / 2.0);
-    [UIView animateWithDuration:0.4 animations:^{
+    [UIView animateWithDuration:self.animationTime animations:^{
         
         self.frame = CGRectMake(newViewXAxis, self.frame.origin.y, self.frame.size.width, self.frame.size.height);
     } completion:^(BOOL finished) {
         
-        [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(animateOutWithDelay:) userInfo:nil repeats:NO];
+        [NSTimer scheduledTimerWithTimeInterval:self.animationPauseTime target:self selector:@selector(animateOutWithDelay:) userInfo:nil repeats:NO];
     }];
 }
 
 - (void)animateOutWithDelay:(CGFloat)delay {
     
-    [UIView animateWithDuration:0.4 delay:delay options:0 animations:^{
+    [UIView animateWithDuration:self.animationTime delay:delay options:0 animations:^{
         
         self.frame = CGRectMake(self.screenBounds.size.width, self.frame.origin.y, self.frame.size.width, self.frame.size.height);
     } completion:^(BOOL finished) {

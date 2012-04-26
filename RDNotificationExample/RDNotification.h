@@ -20,6 +20,8 @@ typedef enum {
 @property (nonatomic, assign) RDNotificationType notificationType;
 @property (nonatomic, copy) NSString *text;
 @property (nonatomic, strong) UIImage *icon;
+@property (nonatomic, assign) CGFloat animationTime;
+@property (nonatomic, assign) CGFloat animationPauseTime;
 
 - (id)initWithNotificationType:(RDNotificationType)type;
 - (void)showAt:(CGFloat)yAxis;
